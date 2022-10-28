@@ -1,0 +1,19 @@
+package HW2;
+
+public class Average_of_a_list_of_numbers {
+
+    public static void main(String[] args) {
+
+        int[] nums = {4, 10, 7, 25, 15, 12};
+
+        int total = 0;
+        for (int i = 0; i < nums.length; i++){
+            total += nums[i] ;
+        }
+        double avarage = 0;
+        for (int i = 0; i < nums.length; i++){
+            avarage =(double) total / nums.length;
+        }
+        System.out.println("Avarage of a list of numbers = " +  avarage);
+    }
+}
