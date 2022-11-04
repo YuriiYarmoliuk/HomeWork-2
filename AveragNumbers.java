@@ -6,9 +6,9 @@ public class AveragNumbers {
 
         int[] nums = {4, 10, 7, 25, 15, 12};
 
-        int total = 0;
+        int sum = 0;
         for (int i = 0; i < nums.length; i++){
-            total += nums[i] ;
+            sum += nums[i] ;
         }
         double avarage = 0;
         for (int i = 0; i < nums.length; i++){
